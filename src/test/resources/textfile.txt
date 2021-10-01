@@ -1,0 +1,2 @@
+Some text here
+C:\Users\kubra\IdeaProjects\EU6TestNGSelenium\src\test\resources\textfile.txt

@@ -1,0 +1,27 @@
+1.Zoom with mouse: settings, editor,general,click the bow of mouse control
+2.Project SDK:Project Structure, select the sdk you have(jdk8,11)
+3.What is maven: built tool, the POM.XML file is the brain, we give dependencies, built automation tool
+Built: repeated steps when creating a project, creating folders, compiling
+4.Maven:download sources and documentation
+5.File:Invalidate and restart
+6.Selenium:Library that we use to automate web pages
+
+Expected Value = will come from documentation
+Actual Value = will come from webpage
+Verification = compare actual and expected
+
+Verification TestNG, Junit
+
+
+TC #1: YahooTitle Verification
+1.Open Chrome browser
+2.Go to https://www.yahoo.com
+3.Verify title:
+Expected: Yahoo
+TC #2: Cybertekpractice toolverifications
+1.Open Chrome browser
+2.Go to https://practice.cybertekschool.com
+3.Verify URL contains
+Expected: cybertekschool
+4.Verify title:
+Expected: Practice
