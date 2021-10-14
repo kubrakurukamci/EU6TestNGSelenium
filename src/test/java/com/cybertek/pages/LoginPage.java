@@ -23,13 +23,22 @@ public class LoginPage {
     @FindBy(id="_submit")
     public WebElement loginBtn;
 
-    public void login(String username, String password){
+    public void login(String username, String password){ //general login
         usernameInput.sendKeys(username);
         passwordInput.sendKeys(password);
         loginBtn.click();
     }
     public void loginAsStoreManager(){
-        String username= ConfigurationReader.get("driver_username");
+        String username= ConfigurationReader.get("storemanager_username"); //specific login
+        String password= ConfigurationReader.get("storemanager_password");
+
+        usernameInput.sendKeys(username);
+        passwordInput.sendKeys(password);
+        loginBtn.click();
+    }
+
+    public void loginAsDriver(){
+        String username= ConfigurationReader.get("driver_username"); //specific login
         String password= ConfigurationReader.get("driver_password");
 
         usernameInput.sendKeys(username);
