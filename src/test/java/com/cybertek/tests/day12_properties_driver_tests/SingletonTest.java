@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class SingletonTest {
-    //@Test
+    @Test
     public void test1(){
         String s1 = Singleton.getInstance();
         String s2 = Singleton.getInstance();
