@@ -23,6 +23,7 @@ public class vytrackHomework extends TestBase {
         //navigate to customers ->contacts
         DashboardPage dashboardPage=new DashboardPage();
         dashboardPage.navigateToModule("Customers", "Contacts");
+       // new DashboardPage().navigateToModule("Customers", "Contacts"); lazy way
         extentLogger.info("Navigate to costomer contacts page");
         BrowserUtils.waitFor(3);
 

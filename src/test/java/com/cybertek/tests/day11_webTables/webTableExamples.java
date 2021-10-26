@@ -23,7 +23,7 @@ public class webTableExamples {
     }
     @AfterMethod
     public void afterMethod(){
-        //driver.quit();
+        driver.quit();
     }
     @Test
     public void printTable(){
